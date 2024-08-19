@@ -1,8 +1,19 @@
-# React + Vite
+# Desafio 3 React - Carrito
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. <Home />:
+● Recorre el array de pizzas y renderiza un componente <CardPizza />.
+(3 puntos)
 
-Currently, two official plugins are available:
+2. <CardPizza/>:
+● Muestra la información de cada pizza utilizando props. (2 puntos)
+● Itera por la lista de ingredientes de cada pizza y renderiza un <li> por cada
+ingrediente. (2 puntos)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. <Cart />:
+● Recorre el array de pizzaCart y muestra la información de cada pizza en el
+carrito. (1 punto)
+● Agrega botones para aumentar y disminuir la cantidad de pizzas en el carrito.
+(1 punto)
+● Calcula el total de la compra y muéstralo en el carrito. (1 punto)
+
+
