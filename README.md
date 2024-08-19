@@ -5,7 +5,7 @@
 
 2. <CardPizza/>:
 ● Muestra la información de cada pizza utilizando props. (2 puntos)
-● Itera por la lista de ingredientes de cada pizza y renderiza un <li> por cada ingrediente. (2 puntos)
+● Itera por la lista de ingredientes de cada pizza y renderiza un "<li>" por cada ingrediente. (2 puntos)
 
 3. <Cart />:
 ● Recorre el array de pizzaCart y muestra la información de cada pizza en el carrito. (1 punto)
